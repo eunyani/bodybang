@@ -1,0 +1,130 @@
+body{
+    background-color: #DFDDCD;
+    
+}
+
+#image {
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    width: 250px;
+    height: auto;
+}
+#image2{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 600px;
+    height: auto;
+}
+.button {
+    position: absolute;
+    cursor: pointer; /* 커서 모양을 포인터로 변경하여 클릭 가능한 것으로 보이도록 합니다. */
+}
+
+#button1 {
+    top: 392px;
+    left: 893px;
+}
+
+#button2 {
+    top: 445px;
+    left: 1065px;
+}
+
+#button3 {
+    top: 438px;
+    left: 1330px;
+}
+
+#button4 {
+    top: 387px;
+    left: 1390px;
+}
+
+#button1 img {
+    width: 380px; 
+    height: auto; 
+    transition: transform 0.2s; 
+}
+
+#button2 img {
+    width: 270px; 
+    height: auto; 
+    transition: transform 0.2s;
+}
+
+#button3 img {
+    width: 282px; 
+    height: auto; 
+    transition: transform 0.2s; 
+}
+
+#button4 img {
+    width: 390px; 
+    height: auto; 
+    transition: transform 0.2s; 
+}
+
+
+.button:hover img {
+    transform: scale(1.1);
+}
+@font-face {
+    font-family: 'Human-beomseok'; 
+    font-style: normal; 
+    font-weight: 100; 
+
+    src: url('Human-beomseok.otf'); 
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Human-beomseok';
+    position: relative;
+}
+.title {
+    font-size: 130px; /* 원하는 크기로 변경 */
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 150px; /* 원하는 여백으로 변경 */
+    margin-top: 50px;
+    letter-spacing: 5px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.bottom-left {
+    position: absolute;
+    bottom: 20px; /* 원하는 여백으로 변경 */
+    left: 150px; /* 원하는 여백으로 변경 */
+    font-size: 40px; /* 원하는 크기로 변경 */
+    letter-spacing: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-bottom:40px; /* 상자,글자의 수직 간격 */
+}
+.square {
+    width: 40px; /* 원하는 크기로 변경 */
+    height: 40px; /* 원하는 크기로 변경 */
+    margin-right: 20px; /* 사각형과 글자 사이의 간격 */
+    border-radius: 10px; /* 테두리의 둥글기 정도 */
+}
+.spring {
+    background-color: #DDA29C;
+}
+.summer {
+    background-color: #8EABDE;
+}
+.autumn {
+    background-color: #AB8D59;
+}
+.winter {
+    background-color: #C74696;
+}
+
